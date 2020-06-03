@@ -54,7 +54,7 @@
     self.playerView = self.playerView;
     
     XYVideoModel *model = [[XYVideoModel alloc]init];
-    model.url = [NSURL URLWithString:@"http://bos.nj.bpc.baidu.com/tieba-smallvideo/11772_3c435014fb2dd9a5fd56a57cc369f6a.mp4"];
+    model.url = [NSURL URLWithString:@"http://bos.nj.bpc.baidu.com/tieba-smallvideo/11772_3c435014fb2dd9a5fd56a57cc369f6a0.mp4"];
     model.name = @"video1";
     self.playerView.videoModel = model;
     //[self.playerView changeCurrentplayerItemWithVideoModel:model];
@@ -65,7 +65,7 @@
     if (sender.tag==100) {
         
         XYVideoModel *model = [[XYVideoModel alloc]init];
-        model.url = [NSURL URLWithString:@"http://bos.nj.bpc.baidu.com/tieba-smallvideo/11772_3c435014fb2dd9a5fd56a57cc369f6a0.mp4"];
+        model.url = [NSURL URLWithString:@"https://youku.com-youku.com/20180327/fL7mxo48/index.m3u8"];
         model.name = @"video1";
         self.playerView.videoModel = model;
         

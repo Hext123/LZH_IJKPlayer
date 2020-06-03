@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'LZH_IJKPlayer-master' do
+
+  pod 'LZH_ijkPlayer', :path => 'LZH_ijkPlayer.podspec'
+
+end

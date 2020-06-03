@@ -1,0 +1,23 @@
+PODS:
+  - LZH_ijkPlayer (0.0.1):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LZH_ijkPlayer (from `LZH_ijkPlayer.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LZH_ijkPlayer:
+    :path: LZH_ijkPlayer.podspec
+
+SPEC CHECKSUMS:
+  LZH_ijkPlayer: 91b51f20c7cc0cb3a08d3ddab82e71fbbd8c29af
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: afb7eff84c23307e3ce460e1850bd8ec40d9ea69
+
+COCOAPODS: 1.9.1
